@@ -1,0 +1,25 @@
+.container, .grid-items{
+	display:grid;
+	grid-gap:20px;
+	grid-template-columns:1fr 1fr;
+    justify-content: start;
+
+}
+.img-responsive:hover{
+	transform: scale(1,1);
+}
+
+.zone{
+	cursor:pointer;
+	text-align:center;
+	font-size: 1em;
+	border-radius: 4px;
+	border:1px solid #bbb;
+	
+}
+p{
+	position: relative;
+	color: black;
+	
+
+}
